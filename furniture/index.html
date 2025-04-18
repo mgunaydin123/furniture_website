@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css" integrity="sha512-8Vvv6cBwTpq3Jm1j9gHVzOGir1NRxF6+3YcltPbNH5JAwiWJx1y+YIMnUakXDilWuFgME3YcSkQSdTJV9GAKmA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="search-overlay">
+        <i class="fas fa-search p-3"></i>
+        <div id="search-overlay-content">
+            <input type="text" id="overlay-search-input" placeholder="Search">
+            <i id="close-search-overlay" class="fas fa-times"></i>
+        </div>
+    </div>
+    <div class="container">
+        <nav class="navbar mb-5 bg-light">
+            <div class="navbar-left">
+                <span class="brand-name fw-bold fs-3">Furn.</span>
+            </div>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="navbar-center">
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">New Arrival</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-right">
+                <i id="search-icon" class="fas fa-search"></i>
+                <i class="fas fa-cog"></i>
+                <div class="cart-container">
+                    <i class="fas fa-shopping-cart"></i>
+                    <div class="cart-hover">
+                        <ul class="cart-items">
+                            </ul>
+                        <div class="cart-total">
+                            Total: <span>0.00 $ </span>
+                        </div>
+                        <button class="view-cart">View Card</button>
+                    </div>
+                </div>
+            </div>
+            
+        </nav>
+    </div>
+
+    <div class="slider-container bg-light">
+        <div class="slider-wrapper">
+            <div class="slide active" >
+                <div class="container" >
+                    <div class="row d-flex align-items-center">
+                        <div class="col-8" style="width: 55%; text-align: left;">
+                            <div>
+                                <h3 class="text-black-50" style="font-size: 1.8em;">Great Design Collection</h3>
+                            </div>
+                            <div>
+                                <h2 style="font-size: 2.5em;">Cloth Covered Accent Chair</h2>
+                            </div>
+                            <div>
+                                <p class="text-black-50" style="font-size: 1.4em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aliquid blanditiis ratione reprehenderit laudantium nesciunt libero nam ipsam, dicta ducimus nostrum odit.</p>
+                            </div>
+                            <div>
+                                <span style="display: inline-block; border-top: 1px solid black; width: 50px; margin-left: 10px; vertical-align: middle;"></span>
+                                <span>$ 399.00</span>
+                                <span style="color: #888; text-decoration: line-through; margin-left: 10px;">$ 499.00</span>
+                            </div>
+                            <div>
+                                <button class="add-to-cart-button">
+                                    <span style="display: inline-flex; justify-content: center; align-items: center; width: 16px; height: 16px; border-radius: 50%; border: 1px solid #e7e3de; font-size: 13px; margin-right: 5px;">+</span>
+                                    Add to Cart
+                                </button>
+                                <button class="more-info-button">More Info</button>
+                            </div>
+                        </div>
+                        <div class="col-4" style="width: 45%; text-align: right;">
+                            <img src="slider1.png" alt="" style="max-width: 180%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="slide" >
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-8" style="width: 55%; text-align: left;">
+                            <div>
+                                <h3 class="text-black-50" style="font-size: 1.8em;">Great Design Collection</h3>
+                            </div>
+                            <div>
+                                <h2 style="font-size: 2.5em;">Mapple Wood Accent Chair</h2>
+                            </div>
+                            <div>
+                                <p class="text-black-50" style="font-size: 1.4em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aliquid blanditiis ratione reprehenderit laudantium nesciunt libero nam ipsam, dicta ducimus nostrum odit.</p>
+                            </div>
+                            <div>
+                                <span style="display: inline-block; border-top: 1px solid black; width: 50px; margin-left: 10px; vertical-align: middle;"></span>
+                                <span>$ 199.00</span>
+                                <span style="color: #888; text-decoration: line-through; margin-left: 10px;">$ 299.00</span>
+                            </div>
+                            <div>
+                                <button class="add-to-cart-button">
+                                    <span style="display: inline-flex; justify-content: center; align-items: center; width: 16px; height: 16px; border-radius: 50%; border: 1px solid #e7e3de; font-size: 13px; margin-right: 5px;">+</span>
+                                    Add to Cart
+                                </button>
+                                <button class="more-info-button">More Info</button>
+                            </div>
+                        </div>
+                        <div class="col-4" style="width: 45%; text-align: right;">
+                            <img src="slider2.png" alt="" style="max-width: 180%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="slide" >
+                <div class="container" >
+                    <div class="row d-flex align-items-center">
+                        <div class="col-8" style="width: 55%; text-align: left;">
+                            <div>
+                                <h3 class="text-black-50" style="font-size: 1.8em;">Great Design Collection</h3>
+                            </div>
+                            <div>
+                                <h2 style="font-size: 2.5em;">Valvet Accent Arm Chair</h2>
+                            </div>
+                            <div>
+                                <p class="text-black-50" style="font-size: 1.4em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aliquid blanditiis ratione reprehenderit laudantium nesciunt libero nam ipsam, dicta ducimus nostrum odit.</p>
+                            </div>
+                            <div>
+                                <span style="display: inline-block; border-top: 1px solid black; width: 50px; margin-left: 10px; vertical-align: middle;"></span>
+                                <span>$ 299.00</span>
+                                <span style="color: #888; text-decoration: line-through; margin-left: 10px;">$ 399.00</span>
+                            </div>
+                            <div>
+                                <button class="add-to-cart-button">
+                                    <span style="display: inline-flex; justify-content: center; align-items: center; width: 16px; height: 16px; border-radius: 50%; border: 1px solid #e7e3de; font-size: 13px; margin-right: 5px;">+</span>
+                                    Add to Cart
+                                </button>
+                                <button class="more-info-button">More Info</button>
+                            </div>
+                        </div>
+                        <div class="col-4" style="width: 45%; text-align: right;">
+                            <img src="slider3.png" alt="" style="max-width: 180%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider-nav">
+        <button id="prev-slide" class="dot"></button>
+        <button id="center-slide" class="dot"></button>
+        <button id="next-slide" class="dot"></button>
+    </div>
+
+    <div class="product-section">
+        <div class="product-row">
+            <div class="product-column-3 pt-5">
+                <img src="p1.png" alt="">
+                <h4 class="product-item-title">Arm Chair</h4>
+                <p class="product-item-description">Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut</p>
+            </div>
+            <div class="product-column-6">
+                <img src="p2.png" alt="" class="product-column-6-image">
+                <div class="product-column-6-content">
+                    <h4 class="product-item-title">Latest Designed Stool and hair</h4>
+                    <p class="product-item-description">Edi ut perspiciatis unde omnis iste natusina error sit voluptatem accusantium doloret mque laudantium, totam rem aperiam.</p>
+                    <div class="product-sales-info">
+                        <span>Sales Start from</span> <span class="price"> $99.00</span>
+                    </div>
+                    <button class="product-discover-button">Discover More</button>
+                </div>
+            </div>
+            <div class="product-column-3">
+                <img src="p3.png" alt="">
+                <h4 class="product-item-title">hanging lamp</h4>
+                <p class="product-item-description">Nemo enim ipsam voluptatem quia volu ptas sit asperna aut odit aut</p>
+            </div>
+        </div>
+    </div>
+
+    <section>
+            <div class="arrivals-section">
+                <h2 class="fs-1 d-flex justify-content-center pb-5">New Arrivals</h2>
+                <div class="arrivals-grid">
+                    </div>
+            </div>
+    </section>
+    
+    <section class="custom-slider-container" id="slider1">
+        <div class="custom-slide active">
+            <img src="sofa-collection-banner.jpg" alt="Slider 1 ">
+            <div class="image-fog"></div> <div class="custom-slider-overlay">
+                <h3>Unlimited Sofa Collaction</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tempora, incidunt eligendi, ab libero corrupti rerum explicabo unde maiores et deleniti reprehenderit harum voluptas at.</p>
+                <p>Strting From <span class="price">$199</span></p>
+                <button>View More</button>
+            </div>
+        </div>
+        <div class="custom-slide">
+            <img src="table-banner.jpg" alt="Slider 1 ">
+            <div class="image-fog"></div> <div class="custom-slider-overlay">
+                <h3>Unlimited Dainning Table Collection</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis veritatis hic iste repellat corporis temporibus, itaque quos beatae fugit vero quod praesentium impedit porro. Magnam ex qui molestiae beatae reprehenderit.</p>
+                <p>Strting From <span class="price">$299</span></p>
+                <button>View More</button>
+            </div>
+        </div>
+    </section>
+
+    <h2 class=" d-flex justify-content-center m-5 fs-1">Featured Products</h2>
+
+    <div class="container">
+        <div class="featured-grid">
+        </div>
+    </div>
+
+    <h2 class=" d-flex justify-content-center m-5 fs-1">Latest Blog</h2>
+
+   <div class="container">
+    <div class="three-card-container">
+        <div class="three-card">
+            <div class="image-container">
+                <img src="1.jpg" alt="blog image">
+            </div>
+            <div class="text-container">
+                <h3>Why Brands are Looking at Local Language</h3>
+                <p class="author-date">By Robert Norby / 18th March 2018</p>
+                <p class="description">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt....</p>
+            </div>
+        </div>
+        <div class="three-card">
+            <div class="image-container">
+                <img src="2.jpg" alt="Resim 2">
+            </div>
+            <div class="text-container">
+                <h3>Why Brands are Looking at Local Language</h3>
+                <p class="author-date">By Robert Norby / 18th March 2018</p>
+                <p class="description">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt....</p>
+            </div>
+        </div>
+        <div class="three-card">
+            <div class="image-container">
+                <img src="3.jpg" alt="Resim 3">
+            </div>
+            <div class="text-container">
+                <h3>Why Brands are Looking at Local Language</h3>
+                <p class="author-date">By Robert Norby / 18th March 2018</p>
+                <p class="description">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt....</p>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="bg-light pt-4 pb-4" id="cardContainer">
+</div>
+
+<footer>
+    <div class="footer-container mt-5 mb-5 pt-5 pb-5">
+      <div class="footer-col">
+        <h3>Information</h3>
+        <ul>
+          <li><a href="#">about us</a></li>
+          <li><a href="#">contact us</a></li>
+          <li><a href="#">news</a></li>
+          <li><a href="#">store</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Collections</h3>
+        <ul>
+          <li><a href="#">wooden chair</a></li>
+          <li><a href="#">royal cloth sofa</a></li>
+          <li><a href="#">accent chair</a></li>
+          <li><a href="#">bed</a></li>
+          <li><a href="#">hanging lamp</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>My Accounts</h3>
+        <ul>
+          <li><a href="#">my account</a></li>
+          <li><a href="#">wishlist</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">order history</a></li>
+          <li><a href="#">my cart</a></li>
+        </ul>
+      </div>
+      <div class="footer-col newsletter">
+        <h3>Newsletter</h3>
+        <p>Subscribe to get latest news,update and information.</p>
+        <div class="newsletter-input-wrapper">
+            <input type="text" placeholder="Enter your email">
+            <span class="icon-wrapper">
+              <i class="fa-solid fa-paper-plane"></i>
+            </span>
+            </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="back-to-top-button" id="backToTopBtn">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <div class="footer-social d-flex justify-content-center">
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+    <a href="#"><i class="fa-brands fa-behance"></i></a>
+  </div>
+  
+  <footer>
+    <div class="footer-bottom">
+        <span class="d-flex justify-content-center text-black-50 pt-3 mb-5 pb-4">©copyright. designed and developed by <a href="https://themesine.com/" target="_blank">themesine</a></span>
+       </div> 
+  </footer>
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

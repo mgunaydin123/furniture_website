@@ -1,0 +1,115 @@
+{
+    "new_arrivals": [
+      {
+        "id": 1,
+        "name": "Wooden Chair",
+        "price": "65.00",
+        "image_url": "https://themewagon.github.io/furn./assets/images/collection/arrivals1.png",
+        "sale": true
+      },
+      {
+        "id": 2,
+        "name": "Single Armchair",
+        "price": "80.00",
+        "image_url": "https://themewagon.github.io/furn./assets/images/collection/arrivals2.png",
+        "sale": true
+      },
+      {
+        "id": 3,
+        "name": "Wooden Armchair",
+        "price": "40.00",
+        "image_url": "https://themewagon.github.io/furn./assets/images/collection/arrivals3.png",
+        "sale": false
+      },
+      {
+        "id": 4,
+        "name": "Stylish Chair",
+        "price": "100.00",
+        "image_url": "https://themewagon.github.io/furn./assets/images/collection/arrivals4.png",
+        "sale": true
+      },
+      {
+        "id": 5,
+        "name": "Modern Chair",
+        "price": "120.00",
+        "image_url": "https://themewagon.github.io/furn./assets/images/collection/arrivals5.png",
+        "sale": false
+      },
+      {
+        "id": 6,
+        "name": "Mapple Wood Dinning Table",
+        "price": "140.00",
+        "image_url": "https://themewagon.github.io/furn./assets/images/collection/arrivals6.png",
+        "sale": true
+      },
+      {
+        "id": 7,
+        "name": "Arm Chair",
+        "price": "90.00",
+        "image_url": "https://themewagon.github.io/furn./assets/images/collection/arrivals7.png",
+        "sale": true
+      },
+      {
+        "id": 8,
+        "name": "Wooden Bed",
+        "price": "140.00",
+        "image_url": "https://themewagon.github.io/furn./assets/images/collection/arrivals8.png",
+        "sale": false
+      }
+    ],
+
+
+    
+    "featured_products": [
+      {
+        "id": 1,
+        "name": "Designed Sofa",
+        "price": "160.00",
+        "image_url": "https://themewagon.github.io/furn./assets/images/features/f1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Dinning Table",
+        "price": "200.00",
+        "image_url": "https://themewagon.github.io/furn./assets/images/features/f2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Chair and Table",
+        "price": "100.00",
+        "image_url": "https://themewagon.github.io/furn./assets/images/features/f3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Modern Arm Chair",
+        "price": "299.00",
+        "image_url": "https://themewagon.github.io/furn./assets/images/features/f4.jpg"
+      }
+    ],
+
+
+
+    "brand": [
+      {
+        "id": 1,
+        "image_url": "https://themewagon.github.io/furn./assets/images/clients/c1.png"
+      },
+      {
+        "id": 2,
+        "image_url": "https://themewagon.github.io/furn./assets/images/clients/c2.png"
+      },
+      {
+        "id": 3,
+        "image_url": "https://themewagon.github.io/furn./assets/images/clients/c3.png"
+      },
+      {
+        "id": 4,
+        "image_url": "https://themewagon.github.io/furn./assets/images/clients/c4.png"
+      },
+      {
+        "id": 5,
+        "image_url": "https://themewagon.github.io/furn./assets/images/clients/c5.png"
+      }
+    ]
+  }
+  
